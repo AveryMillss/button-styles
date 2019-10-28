@@ -29,7 +29,7 @@ a {
   border-width: 3px;
 }
 
-.btn:hover , .small-btn:hover , .btn-big:hover{
+.btn:hover, .btn-small:hover, .btn-big:hover {
   background-color: #000;
 }
 
@@ -49,7 +49,7 @@ a {
   border-color: #000;
 }
 
-.btn-subtle:hover , .btn-ghost:hover , .small-subtle:hover , .small-ghost:hover , .subtle-big:hover , .ghost-big:hover{
+.btn-subtle:hover, .btn-ghost:hover, .small-subtle:hover, .small-ghost:hover, .subtle-big:hover, .ghost-big:hover {
   color: #fff;
   background-color: #333;
 }
@@ -62,7 +62,7 @@ a {
   border-width: 3px;
 }
 
-.btn-warning:hover , .warning-big:hover , .small-warning:hover{
+.btn-warning:hover, .warning-big:hover, .small-warning:hover {
   background-color: #933;
 }
 
