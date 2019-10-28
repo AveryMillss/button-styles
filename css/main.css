@@ -10,130 +10,67 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-}
-
-a {
-  text-decoration: none;
-  padding: .4em .75em .3em;
-}
-
-.normal {
-  font-size: 1.125rem;
+  margin: .1em;
 }
 
 .btn {
   display: inline-block;
+  text-decoration: none;
   border-radius: 8px;
-  color: #fff;
-  background-color: #333;
-  border-width: 3px;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border: solid 3px #000;
 }
 
-.btn:hover, .btn-small:hover, .btn-big:hover {
-  background-color: #000;
+.btn-primary {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 
 .btn-subtle {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
   background-color: #ccc;
-  border-width: 3px;
+  color: #fff;
+  border-color: #ccc;
 }
 
 .btn-ghost {
-  display: inline-block;
-  border-radius: 8px;
-  color: #000;
-  border-width: 3px;
-  border-color: #000;
-}
-
-.btn-subtle:hover, .btn-ghost:hover, .small-subtle:hover, .small-ghost:hover, .subtle-big:hover, .ghost-big:hover {
-  color: #fff;
-  background-color: #333;
+  background-color: #fff;
+  border: solid 3px #000;
+  color: #333;
 }
 
 .btn-warning {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
   background-color: #f33;
-  border-width: 3px;
-}
-
-.btn-warning:hover, .warning-big:hover, .small-warning:hover {
-  background-color: #933;
-}
-
-.small {
-  font-size: .875rem;
-}
-
-.small-btn {
-  display: inline-block;
-  border-radius: 8px;
+  border-color: #f33;
   color: #fff;
-  background-color: #333;
-  border-width: 3px;
 }
 
-.small-subtle {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
-  background-color: #ccc;
-  border-width: 3px;
-}
-
-.small-ghost {
-  display: inline-block;
-  border-radius: 8px;
-  color: #000;
-  border-width: 3px;
-  border-color: #000;
-}
-
-.small-warning {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
-  background-color: #f33;
-  border-width: 3px;
-}
-
-.big {
-  font-size: 1.5rem;
+.btn-small {
+  font-size: .85rem;
 }
 
 .btn-big {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
-  background-color: #333;
-  border-width: 3px;
+  font-size: 1.5rem;
 }
 
-.subtle-big {
-  display: inline-block;
-  border-radius: 8px;
-  color: #fff;
-  background-color: #ccc;
-  border-width: 3px;
+.btn-primary:hover {
+  background-color: #000;
 }
 
-.ghost-big {
-  display: inline-block;
-  border-radius: 8px;
-  color: #000;
-  border-width: 3px;
-  border-color: #000;
+.btn-subtle:hover {
+  background-color: #666;
 }
 
-.warning-big {
-  display: inline-block;
-  border-radius: 8px;
+.btn-ghost:hover {
+  background-color: #666;
   color: #fff;
-  background-color: #f33;
-  border-width: 3px;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn:hover {
+
 }
